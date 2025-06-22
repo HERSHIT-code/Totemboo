@@ -1,0 +1,429 @@
+body{
+    background: #fff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+:root{
+    --font-family: "Montserrat", sans-serif;
+    --color1: #323232;
+    --color2: #fff;
+    --color3: #e1e1e1;
+    --color4: #000;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.intro__title{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 30px;
+letter-spacing: 0.07em;
+text-transform: uppercase;
+color: var(--color4);
+padding-top: 60px;
+text-align: center;
+}
+.intro__title::after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 100%;
+    background: var(--color4);
+    margin-top: 20px;
+}
+.container{
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+}
+/* ! HEADER !  */
+.header__logo{
+    width: 169px;
+    height: 24px;
+    margin-right: 50px;
+}
+.header__list-link{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+text-transform: capitalize;
+color: var(--color1);
+}
+.header__list-img{
+    fill: var(--color1);
+}
+.header__list{ 
+    height: 100%;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    
+}
+.header__container{
+   flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    padding-top: 35px; 
+    width: 100%;
+}
+.header__container::after{
+    content: "";
+    display: block;
+    
+    
+    height: 2px;
+    width: 100%;
+    background: var(--color1);
+}
+.header__nav{
+    height: 93px;
+    padding: 0;
+}
+
+.banner__banner-small{
+    background: var(--color3);
+    border-radius: 10px;
+    width: 526px;
+    height: 294px;
+    box-shadow: 6px 6px 15px 0 rgba(132, 132, 132, 0.3);
+    position: relative;
+}
+.banner__banner-big{
+    background: var(--color3);
+    border-radius: 10px;
+    width: 746px;
+    height: 618px;
+    box-shadow: 6px 6px 15px 0 rgba(132, 132, 132, 0.3);
+    position: relative;
+    gap: 0;
+}
+.discount{
+    border-radius: 10px;
+    width: 123px;
+height: 49px;
+    background: var(--color1);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color2);
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 22px;
+    text-transform: capitalize;
+    top: 20px;
+    left: 20px;
+
+}
+.banner__text{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    
+    color: var(--color1);
+}
+.banner__title{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 15px;
+text-transform: uppercase;
+color: var(--color4);
+
+}
+.banner__cost{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 112%;
+    text-transform: uppercase;
+    color: var(--color1);
+}
+.banner__img{
+    margin-top: 25px;
+    width: 146px;
+    height: 174px;
+}
+.banner__text-big{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 15px;
+line-height: 112%;
+color: var(--color1);
+}
+.banner__title-big{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 22px;
+line-height: 77%;
+text-transform: uppercase;
+color: var(--color1);
+}
+.banner__cost-big{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 15px;
+line-height: 112%;
+text-transform: uppercase;
+color: var(--color1);
+}
+.banner__img-big{
+    width: 306px;
+    height: 242px;
+}
+.banner__banner-small{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding-left: 30px;
+    gap: 54px;
+}
+.banner__banner-smallgap{
+    padding-left: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.banner__banner-smallgap{
+    margin-top: 30px;
+    background: var(--color3);
+    border-radius: 10px;
+    width: 526px;
+    height: 294px;
+    box-shadow: 6px 6px 15px 0 rgba(132, 132, 132, 0.3);
+    position: relative;
+}
+.banner__text-container{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+.banner__text-container-big{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+.banner__banner-big{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+   
+    
+}
+.banner__text-container-big{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.header__banner{
+    display: flex;
+    margin-top: 40px;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ! HEADER!  */
+
+/* ! MAIN ! */
+
+.offer__banner{
+    box-shadow: 6px 6px 15px 0 rgba(132, 132, 132, 0.3);
+    border-radius: 10px;
+    background: var(--color3);
+    position: relative; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top:75px ;
+    padding-bottom: 40px;
+    gap: 20px;
+}
+.offer__img{
+    width: 200px;
+    height: 243px;
+    object-fit: cover;
+    
+}
+
+.offer__container-icon{
+    display: flex;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    flex-direction: column;
+    gap: 20px;
+}
+.offers__list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(305px, auto));
+    gap: 24px;
+    padding-top: 40px;
+    max-height: 2300px;
+    overflow-x: auto;
+
+}
+.offer__container-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.offer__text{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--color1); 
+}
+.offer__title{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 20px;
+text-transform: uppercase;
+color: var(--color4);
+
+}
+.offer__cost{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 20px;
+line-height: 115%;
+text-transform: uppercase;
+color: var(--color1);
+}
+
+
+.offers__more{
+    border: none;
+    text-align: center;
+    width: 100%;
+    background: none;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 30px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: var(--color1);
+}
+
+
+
+/* ! MAIN ! */
+
+/* ! MEDIA ! */
+@media(max-width:1175px){
+    .header__container{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        height: auto;
+    }
+    .header__banner{
+        margin-top: 140px;
+        flex-direction: column;
+    }
+    .banner__img-big{
+    width: 200px;
+}
+    .banner__banner-small, .banner__banner-smallgap{
+        max-width: 526px;
+        
+    }
+    .header__list{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .banner__img-big{
+        max-width: 180px;
+        max-height: 150px;
+    }
+    .banner__banner-big{
+        object-fit: contain;
+        width: 526px;
+        height: 294px;
+        gap: 10px;
+    }
+    .banner__cost-big{
+        font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 112%;
+    text-transform: uppercase;
+    color: var(--color1);
+    }
+    .banner__text-big{
+        font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    
+    color: var(--color1);
+    }
+    .banner__title-big{
+        font-family: var(--font-family);
+font-weight: 700;
+font-size: 15px;
+text-transform: uppercase;
+color: var(--color4);
+    }
+    
+}
+@media(max-width:560px){
+   
+.banner__banner-big{
+    gap: 0px;
+    flex-direction: column;
+    height: 350px;
+    max-width: 500px;
+    width: 100%;
+
+}
+.banner__container{
+    width: 100%;
+}
+.banner__banner-small{
+    gap: 0px;
+    flex-direction: column;
+    height: 350px;
+    
+    width: 100%;
+}
+.banner__banner-smallgap{
+    gap: 0px;
+    flex-direction: column;
+    height: 350px;
+    
+    width: 100%;
+}
+}
+@media(max-width:456px){
+    .header__banner{
+        padding-top: 100px;
+    }
+
+    .offers__list{
+        grid-template-columns: repeat(auto-fit,minmax(290px, auto));
+    }
+
+}
+
+/* ! MEDIA ! */
