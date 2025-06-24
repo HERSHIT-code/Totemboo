@@ -363,6 +363,7 @@ font-weight: 700;
 font-size: 22px;
 font-variant: all-small-caps;
 color: #fff;
+padding-bottom: 35px;
 }
 .advice__text{
     font-family: var(--font-family);
